@@ -1,0 +1,16 @@
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0;
+}
+
+.card {
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+}
