@@ -25,6 +25,10 @@ $('#submitBtn').on('click', function () {
     destination = $('#enterDestination').val().trim();
     trainTime = $('#enterFirstTime').val().trim();
     frequency = $('#enterFrequency').val().trim();
+    $('#enterTrain').val('');
+    $('#enterDestination').val('');
+    $('#enterFirstTime').val('');
+    $('#enterFrequency').val('');
 
     database.ref().push({
         trainName: trainName,
