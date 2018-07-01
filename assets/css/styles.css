@@ -14,3 +14,24 @@
 .header {
     text-align: center;
 }
+
+.jumbotron {
+    background-color: rgb(160, 67, 12);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.title {
+    font-family: 'Wendy One';
+    font-size: 75px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+.card-header {
+    background-color: rgb(14, 149, 183);
+}
+
+h4 {
+    color: white;
+}
